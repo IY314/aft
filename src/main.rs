@@ -19,7 +19,7 @@ fn main() {
     );
 
     if let Err(lex_err) = lex_res {
-        eprintln!("{}", lex_err);
+        eprintln!("{:#?}", lex_err);
         exit(1);
     }
 
