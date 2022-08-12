@@ -1,0 +1,11 @@
+[package]
+name = "hello_world"
+version = "0.01"
+authors = ["Isaac Yee"]
+
+[settings]
+root = "src"
+format_error = true
+warnings = "all"
+
+[requires]

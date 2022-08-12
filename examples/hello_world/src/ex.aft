@@ -1,0 +1,7 @@
+module hello_world.main;
+
+import std.io;
+
+main: (args: [Str]) -> _ = {
+    std.io.outln('Hello World!');
+}
